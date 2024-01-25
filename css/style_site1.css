@@ -1,0 +1,42 @@
+    body
+        {
+          background-color: #e6ffec;
+        }
+
+    h1
+      {
+        color: #4d7e80;
+      } 
+
+    h3
+      {
+        color: #568e8f;
+      }
+
+    text
+        {
+          size: 20px;
+        }
+
+    hr
+      {
+        /* Long Way of Doing
+
+        width:50px;
+        border-style:dotted;
+        border-left:none;
+        border-right:none;
+        border-bottom:none;
+        border-width:5px;
+        border-color:crimson;
+        
+        */
+
+        
+        /* New Better Way To Do It*/
+
+        border: none;
+        border-top: dotted 5px crimson;
+        width: 50px;
+
+      }
